@@ -16,6 +16,7 @@ hs_err_pid*
 
 # Jenkins builds data
 jobs/**/builds
+jobs/**/nextBuildNumber
 
 # Eclipse
 .metadata/
