@@ -16,3 +16,8 @@ hs_err_pid*
 
 # Jenkins builds data
 jobs/**/builds
+
+# Eclipse
+.metadata/
+.classpath
+.project
