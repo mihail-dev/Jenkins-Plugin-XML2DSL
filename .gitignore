@@ -22,3 +22,6 @@ jobs/**/nextBuildNumber
 .metadata/
 .classpath
 .project
+
+# Maven
+.settings/

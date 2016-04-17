@@ -23,7 +23,8 @@ public class ParseXMLToDSL {
 			NodeList list = doc.getElementsByTagName("description");
 			Node node = list.item(0);
 			System.out.println(node.getNodeName());
-			System.out.println("Project description: " + node.getTextContent());
+			setDescription(node.getTextContent());
+			System.out.println("Project description: " + getDescription());
 			
 		} catch (Exception e) {
 			e.printStackTrace();
